@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    background-attachment: fixed;
+}
+
+.menu {
+    background-color: #010F12;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.menu .a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: inline;
+    margin: 8px;
+    padding: 10px;
+    height: 40%;
+    width: 30%;
+    position: relative;
+    top: 30px;
+}
+
+.menu .a:hover{
+    color:rgb(197, 188, 116);
+}
+
+.banner {
+    background: linear-gradient(to right, rgb(188, 171, 38), #9e6803); 
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    transition: background 0.1s ease; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background-color: #9e6803;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #a3934b;
+}
+
+input[type="email"] {
+    height: 30px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #e9cb66;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5c9ed4;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: green;
+}
+
+.img-container {
+    overflow: hidden;
+    border-radius: 500px;
+}
+
+.img-container img {
+    width: 500px;
+}
+
+.nov {
+    margin-left: 20px;
+    text-align: center;
+}
+
+.nov h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+}
+
+.nov button:hover{
+    background-color:#e1aa43 ;
+}
+
+.nov button{
+    border-radius: 15px;
+    background-color:#e3b45c;
+    width: 120px;
+    height: 30px;
+    border: rgb(255, 255, 255);
+}
+
+.nov button a{
+    text-decoration: none;
+    color:rgb(250, 250, 250);
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.rod{
+    margin-top: 350px;
+    background-color:#010F12;
+    height:50px;
+}
+
+.rod img{
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.esp {
+    width: 150px;
+}
